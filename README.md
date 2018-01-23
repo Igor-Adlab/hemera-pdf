@@ -1,2 +1,2 @@
-# Hemera Mailer
-Plugin for Mail Sending
+# Hemera PDF 
+Hemera plugin for pdf generation

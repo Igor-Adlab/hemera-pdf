@@ -1,6 +1,6 @@
 {
   "name": "hemera-pdf",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Hemera plugin for generate PDFs",
   "main": "lib/index.js",
   "scripts": {
@@ -22,20 +22,17 @@
   },
   "keywords": [
     "hemera.js",
-    "mail"
+    "pdf"
   ],
   "author": "Igor Olshevsky",
   "license": "ISC",
   "dependencies": {
     "azure-storage": "^2.7.0",
-    "express": "^4.16.2",
     "hemera-plugin": "0.0.17",
     "html-pdf": "^2.2.0",
     "lodash": "^4.17.4",
     "nats": "^0.7.24",
     "nats-hemera": "^2.4.3",
-    "node-fetch": "^1.7.3",
-    "nodemailer": "^4.4.1",
     "nodemon": "^1.13.3",
     "nunjucks": "^3.0.1",
     "pug": "^2.0.0-rc.4",

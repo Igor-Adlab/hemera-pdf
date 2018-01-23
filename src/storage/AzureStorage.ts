@@ -14,7 +14,7 @@ export class AzureStorage implements IStorage {
     save(stream, options) {
         console.log(stream.path);
         return new Promise((resolve, reject) => {
-            this.service.createBlockBlobFromLocalFile(this.container, options.name, stream.path, (err, response) => {
+            this.service.createBlockBlobFromLocalFile(options.container || this.container, options.name, stream.path, (err, response) => {
                 if(err) reject(err);
                 else resolve(this.service.getUrl(this.container, options.name));
             })
