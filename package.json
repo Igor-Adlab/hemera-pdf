@@ -1,6 +1,6 @@
 {
   "name": "hemera-pdf",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Hemera plugin for generate PDFs",
   "main": "lib/index.js",
   "scripts": {
